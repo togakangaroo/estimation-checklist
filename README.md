@@ -4,7 +4,7 @@ As much as Agile discourages large up-front estimates they are still prevelant. 
 
 This is meant to serve as a simple collaborative checklist of questions that one should remember to ask when preforming such an estimation of a project or large-grained features. Some of these might not apply to you or have no answers, most should probably at least be discussed with the client.
 
-Please contribute!
+Please fork, modify and PR to contribute!
 
 - [ ] Is there a area for administrators? What goes in there?
 - [ ] What happens when entity X is deleted?
