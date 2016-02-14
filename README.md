@@ -6,7 +6,8 @@ This is meant to serve as a simple collaborative checklist of questions that one
 
 Please fork, modify and PR to contribute!
 
-- [ ] Is there a area for administrators? What goes in there?
+- [ ] Is there an area for administrators? What goes in there?
+- [ ] Is there an area for super-users?
 - [ ] What happens when entity X is deleted?
   - [ ] Can X even be deleted or just disabled? Is there a difference?
   - [ ] What happens to entities that reference X?
@@ -30,6 +31,8 @@ Please fork, modify and PR to contribute!
   - [ ] Are there limitions on technology imposed by the client's infrastructure/team?
   - [ ] How will the application be deployed initially?
   - [ ] How will updates to the application be delivered? By whom?
+  - [ ] Who will handle setting up an SSL certificate?
+  - [ ] How should application health be monitored?
 - [ ] What are any integration points?
   - [ ] What external systems must this application recieve messages from?
   - [ ] What external systems must this application send messages to?
@@ -37,21 +40,21 @@ Please fork, modify and PR to contribute!
 - [ ] How will migration from existing systems work?
   - [ ] How will data be imported into the system upon launch?
   - [ ] What is the strategy if we have to roll back to the old system after launch? (eg due to bugs)
-  - [ ] If we roll back, how will any new data in the old system be reconciled with data in the new system?
+  - [ ] If we roll back, how will any data entered into the new system be pushed back into the old system?
 - [ ] What sorts of reports should be available?
   - [ ] Which reports are available to each role?
   - [ ] How often will each report be run?
-  - [ ] How accurate must each report be? (eg is containing day-old stale data ok?)
-  - [ ] What format must each report be available in? (eg on-screen, csv, xls, pdf)
+  - [ ] How up-to-date must each report be? (eg is containing day-old stale data ok?)
+  - [ ] What format must each report be available in? (eg html, csv, xls, pdf)
   - [ ] Will these reports be imported into another system?
   - [ ] What sort of analytics and user-tracking information is required?
     - [ ] How should this information be accessible?
 - [ ] For screens showing large amounts of data, must it be possible to display details of old data or is reporting sufficient for this?
 - [ ] What personal information will be stored?
-  - [ ] What information is protected by PCI or HIPAA?
+  - [ ] Is some data protected by PCI or HIPAA?
   - [ ] What information must be taken extra care with? (eg a system which stores names and addresses especially of minors)
 - [ ] How long are you expected to support bugs?
-- [ ] Who will handle user support?
+- [ ] Who will handle user support and questions?
   - [ ] How exactly will users get in touch with support?
 - [ ] Which features exactly are necessary for MVP?
   - [ ] Is it possible to get the core functionality prototyped in a few weeks with some scripts/Excel macros/etc?
