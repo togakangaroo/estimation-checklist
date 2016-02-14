@@ -30,3 +30,34 @@ Please contribute!
   - [ ] Are there limitions on technology imposed by the client's infrastructure/team?
   - [ ] How will the application be deployed initially?
   - [ ] How will updates to the application be delivered? By whom?
+- [ ] What are any integration points?
+  - [ ] What external systems must this application recieve messages from?
+  - [ ] What external systems must this application send messages to?
+    - [ ] Are there downloads that must be in any particular format?
+- [ ] How will migration from existing systems work?
+  - [ ] How will data be imported into the system upon launch?
+  - [ ] What is the strategy if we have to roll back to the old system after launch? (eg due to bugs)
+  - [ ] If we roll back, how will any new data in the old system be reconciled with data in the new system?
+- [ ] What sorts of reports should be available?
+  - [ ] Which reports are available to each role?
+  - [ ] How often will each report be run?
+  - [ ] How accurate must each report be? (eg is containing day-old stale data ok?)
+  - [ ] What format must each report be available in? (eg on-screen, csv, xls, pdf)
+  - [ ] Will these reports be imported into another system?
+  - [ ] What sort of analytics and user-tracking information is required?
+    - [ ] How should this information be accessible?
+- [ ] For screens showing large amounts of data, must it be possible to display details of old data or is reporting sufficient for this?
+- [ ] What personal information will be stored?
+  - [ ] What information is protected by PCI or HIPAA?
+  - [ ] What information must be taken extra care with? (eg a system which stores names and addresses especially of minors)
+- [ ] How long are you expected to support bugs?
+- [ ] Who will handle user support?
+  - [ ] How exactly will users get in touch with support?
+- [ ] Which features exactly are necessary for MVP?
+  - [ ] Is it possible to get the core functionality prototyped in a few weeks with some scripts/Excel macros/etc?
+  - [ ] How fancy do UI controls need to be? (eg can you just use built-in HTML5 browser validation)
+- [ ] What are expectations for timelines?
+  - [ ] When would you like MVP to launch?
+  - [ ] Are there constraints by which MVP *must* launch? (eg the old system becomes deprecated in August)
+  - [ ] When would you like there to be be a Beta launch? What should go into it over MVP?
+  - [ ] When would you like the application to go public?
