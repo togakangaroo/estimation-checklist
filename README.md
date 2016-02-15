@@ -20,7 +20,6 @@ Please fork, modify and PR to contribute!
     - [ ] Can anyone register or do you need an invite?
     - [ ] Will this change over time? (eg beta invites)
     - [ ] Who sends invites? Where is the UI for this?
-  - [ ] Will users log in via their own account?
   - [ ] Is Oauth integration necessary? (eg Facebook or Google) Mandatory? (This can be great as then you don't have to store account info at all)
   - [ ] How will [forgotten usernames/passwords be handled?](http://www.troyhunt.com/2012/05/everything-you-ever-wanted-to-know.html)?
 - [ ] What are the different usage roles within the system? (eg super-admin, manager, registered user, guest) 
