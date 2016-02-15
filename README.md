@@ -7,7 +7,7 @@ This is meant to serve as a simple collaborative checklist of questions that one
 Please fork, modify and PR to contribute!
 
 - [ ] Is there an area for administrators? What goes in there?
-- [ ] Is there an area for super-users?
+  - [ ] Is there an area for super-users?
 - [ ] What happens when entity X is deleted?
   - [ ] Can X even be deleted or just disabled? Is there a difference?
   - [ ] What happens to entities that reference X?
