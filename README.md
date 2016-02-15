@@ -14,6 +14,7 @@ Please fork, modify and PR to contribute!
   - [ ] What happens to entities that X referenes?
 - [ ] What are system/browser requirements? 
   - [ ] Can there be different ones for users in different roles? (eg admins will always use chrome latest)
+  - [ ] What are the expectations for offline functionality?
 - [ ] How will authentication work?
   - [ ] Will users register themselves for the system?
     - [ ] Can anyone register or do you need an invite?
@@ -64,3 +65,7 @@ Please fork, modify and PR to contribute!
   - [ ] Are there constraints by which MVP *must* launch? (eg the old system becomes deprecated in August)
   - [ ] When would you like there to be be a Beta launch? What should go into it over MVP?
   - [ ] When would you like the application to go public?
+- [ ] Are users uploading files?
+  - [ ] What are expectations for typical and maximum file size? How much storage must be available in the foreseeable future?
+  - [ ] What is the expected frequency of downloads?
+  - [ ] How fancy does the upload and download functionality have to be?
