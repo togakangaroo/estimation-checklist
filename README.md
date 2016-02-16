@@ -12,6 +12,10 @@ Please fork, modify and PR to contribute!
   - [ ] Can X even be deleted or just disabled? Is there a difference?
   - [ ] What happens to entities that reference X?
   - [ ] What happens to entities that X referenes?
+- [] What is the CRUD workflow for each entity?
+  - [ ] Which actions need approvals? How should approvals work?
+  - [ ] Can any actions be un-done by the user?
+  - [ ] Can users save drafts of updates? How does this interact with approvals, deletions & access?
 - [ ] What are system/browser requirements? 
   - [ ] Can there be different ones for users in different roles? (eg admins will always use chrome latest)
   - [ ] What are the expectations for offline functionality?
