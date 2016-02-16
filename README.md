@@ -23,7 +23,9 @@ Please fork, modify and PR to contribute!
   - [ ] Is Oauth integration necessary? (eg Facebook or Google) Mandatory? (This can be great as then you don't have to store account info at all)
   - [ ] How will [forgotten usernames/passwords be handled?](http://www.troyhunt.com/2012/05/everything-you-ever-wanted-to-know.html)?
 - [ ] What are the different usage roles within the system? (eg super-admin, manager, registered user, guest) 
-  - [ ] How are authorization permissions assigned and managed?
+  - [ ] How are authorization permissions assigned and managed? 
+    - Which users should have acccess to which functionality?
+    - Which users should have acccess to which data? (eg. a sales rep can't access notes on leads of other sales reps)
   - [ ] Which portions of the application are publically accessible?
 - [ ] How often will a given page realistically be accessed? (especially important for pages containing lots of dynamic data)
 - [ ] What is the infrastructure for deploying the application?
