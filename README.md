@@ -2,7 +2,7 @@
 
 As much as Agile discourages large up-front estimates they are still prevelant. Even the best most Agile-friendly clients need an understanding of scope-of-work before committing to work on a project.
 
-This is **not** an estimation methedology or a replacement for good practices. iit is a simple collaborative checklist of questions that one should remember to ask when preforming such an estimation of a project or large-grained features. Some of these might not apply to you or have no answers, most should probably at least be discussed with the client.
+This is **not** an estimation methedology or a replacement for good practices. it is a simple collaborative checklist of questions that one should remember to ask when preforming such an estimation of a project or large-grained features. Some of these might not apply to you or have no answers, most should probably at least be discussed with the client.
 
 Please fork, modify and PR to contribute!
 
