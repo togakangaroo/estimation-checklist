@@ -74,3 +74,4 @@ Please fork, modify and PR to contribute!
   - [ ] What are expectations for typical and maximum file size? How much storage must be available in the foreseeable future?
   - [ ] What is the expected frequency of downloads?
   - [ ] How fancy does the upload and download functionality have to be?
+- [ ] If entity X has an optional reference to entity Y (it might refer to one or zero instances), would the model be better served by modeling it as a one-to-many up front?
