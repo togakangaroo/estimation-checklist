@@ -75,3 +75,7 @@ Please fork, modify and PR to contribute!
   - [ ] What is the expected frequency of downloads?
   - [ ] How fancy does the upload and download functionality have to be?
 - [ ] If entity X has an optional reference to entity Y (it might refer to one or zero instances), would the model be better served by structuring it as a one-to-many up front?
+- [ ] If the application shows user input, how will moderation of abusive comments be handled?
+  - [ ] How will something be flagged for moderation?
+  - [ ] Who will do the moderation? What sort of UI will they have?
+  - [ ] What happens if a moderator is abusive?
